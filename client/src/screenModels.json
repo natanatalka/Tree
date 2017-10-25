@@ -28,5 +28,10 @@
     "type": "object",
     "comment": "Blank",
     "properties": {}
+  },
+  "Pony": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {}
   }
 }
