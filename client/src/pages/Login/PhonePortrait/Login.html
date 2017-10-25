@@ -1,0 +1,34 @@
+<ion-header data-comp-id="header">
+  <ion-navbar data-comp-id="navbar">
+    <ion-title data-comp-id="title">
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content data-comp-id="content">
+  <ion-row data-comp-id="row">
+    <ion-col class="middle-col" text-center="" data-comp-id="column">
+      <ion-list data-comp-id="list">
+        <ion-item data-comp-id="input">
+          <ion-label fixed="">Username</ion-label>
+          <ion-input [(ngModel)]="data.username" type="text"></ion-input>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+  <ion-row data-comp-id="row">
+    <ion-col class="middle-col" text-center="" data-comp-id="column">
+      <ion-list data-comp-id="list">
+        <ion-item data-comp-id="input">
+          <ion-label fixed="">Password</ion-label>
+          <ion-input [(ngModel)]="data.password" type="password"></ion-input>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+  <ion-row data-comp-id="row">
+    <ion-col class="button-col" text-center="" data-comp-id="column">
+      <button (click)="action('submit')" ion-button="" data-comp-id="button">Login</button>
+    </ion-col>
+  </ion-row>
+</ion-content>

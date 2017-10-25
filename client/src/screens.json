@@ -1,5 +1,12 @@
 {
   "id": "__BASE__",
   "name": "Tree",
-  "screens": []
+  "screens": [
+    {
+      "id": "Login",
+      "name": "Login",
+      "sourceScreenId": "Login",
+      "sourceAppId": "default"
+    }
+  ]
 }
